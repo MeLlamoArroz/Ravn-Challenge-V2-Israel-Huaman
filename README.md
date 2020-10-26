@@ -4,8 +4,8 @@
 
 In the project directory, run:
 
-### `npm install`
+### `sudo npm install`
 
 Then run
 
-### `npm start`
+### `sudo npm start`
