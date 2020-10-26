@@ -18,7 +18,14 @@ Including its general information and vehicles.
 
 ## Screenshots
 
-![Alt text](./public/logo192.png "Image 1")
+![Alt text](./public/screenshots/gif1.gif "Gif 1")
+![Alt text](./public/screenshots/gif2.gif "Gif 2")
+
+![Alt text](./public/screenshots/1.png "Image 1")
+![Alt text](./public/screenshots/2.png "Image 2")
+![Alt text](./public/screenshots/3.png "Image 3")
+![Alt text](./public/screenshots/4.png "Image 4")
+![Alt text](./public/screenshots/5.png "Image 5")
 
 
 ## Assumptions
