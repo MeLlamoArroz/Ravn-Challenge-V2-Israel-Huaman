@@ -13,20 +13,6 @@ const client = new ApolloClient({
   uri: "https://swapi-graphql.netlify.app/.netlify/functions/index"
 });
 
-client.query({
-  query: gql`
-    {
-      allFilms {
-        films {
-          title
-          episodeID
-          director
-        }
-      }
-    }
-  `
-}).then(res => console.log(res.data))
-
 ReactDOM.render(
   // <React.StrictMode>
   <ApolloProvider client={client}>

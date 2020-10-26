@@ -14,7 +14,8 @@
     "react": "^17.0.1",
     "react-apollo": "^3.1.5",
     "react-dom": "^17.0.1",
-    "react-scripts": "3.4.4"
+    "react-scripts": "3.4.4",
+    "sass": "^1.27.0"
   },
   "scripts": {
     "start": "react-scripts start",

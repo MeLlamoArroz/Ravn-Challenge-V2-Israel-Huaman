@@ -1,7 +1,10 @@
 import React from 'react';
 
-import LeftMenuBar from './components/left-bar-menu/leftMenuBar'
-import './App.css';
+import Divider from '@material-ui/core/Divider';
+
+import LeftMenubarContainer from './components/left-menu-container/leftMenuContainer'
+import PersonDetails from './components/person-details/personDetails'
+import './App.scss';
 
 function App() {
   return (
@@ -9,10 +12,10 @@ function App() {
       <div className="App-header">
         Ravn Star Wars Registry
       </div>
-      <LeftMenuBar/>
-      <div className="App-left-menu-bar">
-      </div>
-      <div className="App-main-page">
+      <div className="App-main-body">
+        <LeftMenubarContainer className="App-left-menu"/>
+        <Divider className="App-left-divider" flexItem={true}/>
+        <PersonDetails className="App-main-page"/>
       </div>
     </div>
   )
