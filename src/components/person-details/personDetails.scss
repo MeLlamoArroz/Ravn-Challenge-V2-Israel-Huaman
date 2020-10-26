@@ -1,47 +1,24 @@
 .Details-container {
-    display: flex;
-    height: 95vh;
-    width: 100%;
-    float: left;
-    // background-color: green;
-  .General-information {
-    height: 100vh;
-    width: 100%;
+  width: 100%;
+  .Section {
     margin-left: 10%;
-    margin-top: 5%;
+    margin-right: 10%;
+    margin-top: 3%;
   }
-  .Eye-color {
-    display: flex;
-    width:100px;
-    background:#ddd;
-    padding:10px;
+  .Section-item {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
-    .Eye-color-title {
-      width: 50%;
-      float: left;
+    .Section-item-title {
+      color: #828282;
     }
 
-    .Eye-color-value {
-      width: 50%;
-      float: right;
+    .Section-item-value {
+      text-align: right;
+      color: #333333;
     }
-  }
-
-  .Hair-color {
-    width:150px;
-    background:#ddd;
-    padding:10px;
-  }
-
-  .Skin-color {
-    width:150px;
-    background:#ddd;
-    padding:10px;
-  }
-
-  .Birth-year { 
-    width:150px;
-    background:#ddd;
-    padding:10px;
   }
 }

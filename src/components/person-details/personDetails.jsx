@@ -5,43 +5,53 @@ import './personDetails.scss';
 const PersonDetails = () => {
   return (
     <div className="Details-container">
-      <div className="General-information">
+      <div className="Section">
         General Information
-        <div className="Eye-color">
-          <div className="Eye-color-title">
+        <div className="Section-item">
+          <div className="Section-item-title">
             Eye Color
           </div>
-          <div className="Eye-color-value">
+          <div className="Section-item-value">
             Eye Color Name
           </div>
         </div>
-        <div className="Hair-color">
-          <div className="Hair-color-title">
+        <div className="Section-item">
+          <div className="Section-item-title">
             Hair Color
           </div>
-          <div className="Hair-color-value">
+          <div className="Section-item-value">
             Hair Color Name
           </div>
         </div>
-        <div className="Skin-color">
-          <div className="Skin-color-title">
+        <div className="Section-item">
+          <div className="Section-item-title">
             Skin Color
           </div>
-          <div className="Skin-color-value">
+          <div className="Section-item-value">
             Skin Color Name
           </div>
         </div>
-        <div className="Birth-year">
-          <div className="Birth-color-title">
+        <div className="Section-item">
+          <div className="Section-item-title">
             Birth Color
           </div>
-          <div className="Birth-color-value">
+          <div className="Section-item-value">
             Birth Color Name
           </div>
         </div>
       </div>
-      <div className="Vehicles">
-
+      <div className="Section">
+        Vehicles
+        <div className="Section-item">
+          <div className="Section-item-title">
+            Snowspeeder
+          </div>
+        </div>
+        <div className="Section-item">
+          <div className="Section-item-title">
+            Imperial Speeder Bike
+          </div>
+        </div>
       </div>
     </div>
   )
