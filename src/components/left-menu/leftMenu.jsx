@@ -17,6 +17,8 @@ const useStyles = makeStyles((theme) => ({
 const LeftMenu = ({ people, updatePersonInfo }) => {
   const classes = useStyles()
 
+  console.log("People : ", people)
+
   return (
     <div className={classes.root}>
       <List component="nav" style={{maxHeight: '100%', overflow: 'auto'}} >
@@ -24,18 +26,15 @@ const LeftMenu = ({ people, updatePersonInfo }) => {
         people 
         ?
           Object.values(people).map((elem, idx) =>
-            idx
-            ?
-              <div key={idx}>
-                <ListItem button onClick={() => updatePersonInfo(elem)}>
-                  <ListItemText primary={elem.name} secondary={`${elem.species ? elem.species.name : 'Human'} from ${elem.homeworld.name}`} />
-                  <ListItemIcon>
-                    <ChevronRightIcon />
-                  </ListItemIcon>
-                </ListItem>
-                <Divider/>
-              </div>
-            : null
+            <div key={idx}>
+              <ListItem button onClick={() => updatePersonInfo(elem)}>
+                <ListItemText primary={elem.name} secondary={`${elem.species ? elem.species.name : 'Human'} from ${elem.homeworld.name}`} />
+                <ListItemIcon>
+                  <ChevronRightIcon />
+                </ListItemIcon>
+              </ListItem>
+              <Divider/>
+            </div>
           )
         : null
       }
