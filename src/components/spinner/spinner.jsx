@@ -2,15 +2,6 @@ import React from 'react';
 
 import './spinner.scss';
 
-// const Spinner = () => {
-//   return (
-//     <div className="Spinner-overlay">
-//       Loading
-//       <div className="Spinner-container"/>
-//     </div>
-//   )
-// }
-
 const Spinner = () => {
   return (
     <div className="loading-container">
