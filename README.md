@@ -13,8 +13,8 @@ Then run
 ## Project Description
 
 The following project is a visualization tool, based on SWAPI GHAPHQL API.
-Shows all the main characters of the first 2 trilogies of Start Wars.
-Including its general information and vehicles.
+Shows all the main characters of the first 2 trilogies of Star Wars.
+Including general information and vehicles.
 
 ## Screenshots
 
