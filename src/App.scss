@@ -12,11 +12,12 @@
   color: white;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .App-main-body {
   display: flex;
-  padding-top: 100px;
+  padding-top: 50px;
   .App-left-menu {
      height: 100vh;
      width: 50%;

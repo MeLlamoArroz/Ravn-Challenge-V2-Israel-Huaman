@@ -17,8 +17,6 @@ const useStyles = makeStyles((theme) => ({
 const LeftMenu = ({ people, updatePersonInfo }) => {
   const classes = useStyles()
 
-  console.log("People : ", people)
-
   return (
     <div className={classes.root}>
       <List component="nav" style={{maxHeight: '100%', overflow: 'auto'}} >

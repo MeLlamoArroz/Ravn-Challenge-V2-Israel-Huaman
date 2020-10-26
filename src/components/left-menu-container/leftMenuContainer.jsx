@@ -37,7 +37,7 @@ const LeftMenuContainer = ({ updatePersonInfo }) => {
   return (
     <Query query={GET_ALL_PEOPLE}>
       {({ loading, error, data }) => {
-        if (error) return <div> Failed to Load Data </div>
+        if (error) return <div className="Error-message"> Failed to Load Data </div>
         else if (loading) return <Spinner/>
         else return <LeftMenu people={data ? data.allPeople.people : null} updatePersonInfo={updatePersonInfo}/>
       }}
