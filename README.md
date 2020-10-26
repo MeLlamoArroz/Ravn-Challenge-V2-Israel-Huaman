@@ -39,4 +39,4 @@ Also, there's not a considerable delay on the allPersons query to consider 5x5 s
 - Apollo Client
 - Sass
 - Material ui
-- React.js
+- React.js (with Hooks)
