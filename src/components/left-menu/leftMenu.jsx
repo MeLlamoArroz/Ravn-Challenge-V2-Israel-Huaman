@@ -25,7 +25,7 @@ const LeftMenu = ({ people, updatePersonInfo }) => {
           people 
           ?
             Object.values(people).map((elem, idx) =>
-              idx < 5
+              idx
               ?
                 <div key={idx}>
                   <ListItem button onClick={() => updatePersonInfo(elem)}>
