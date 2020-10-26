@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const LeftMenu = ({ people }) => {
+const LeftMenu = ({ people, updatePersonInfo }) => {
   const classes = useStyles()
 
   return (
@@ -28,7 +28,7 @@ const LeftMenu = ({ people }) => {
               idx < 5
               ?
                 <div key={idx}>
-                  <ListItem button>
+                  <ListItem button onClick={() => updatePersonInfo(elem)}>
                     <ListItemText primary={elem.name} secondary={`${elem.species ? elem.species.name : 'Human'} from ${elem.homeworld.name}`} />
                     <ListItemIcon>
                       <ChevronRightIcon />
